@@ -1,0 +1,127 @@
+.about{
+    margin: 200px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+    padding: 0 30px;
+}
+
+.aboutImage{
+    max-width: 50%;
+}
+.aboutImage img{
+    width: 520px;
+    box-shadow: -15px -15px 0px 0px #3500D4;
+    transition: box-shadow .3s;
+}
+
+.aboutDescription{
+    max-width: 50%;
+}
+
+
+.aboutDescription h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #450BF3;
+    text-align: center;
+    margin: 0 0 30px 0;
+    cursor: default;
+}
+
+.aboutDescription p{
+    width: 480px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    cursor: default;
+}
+.aboutDescription p span{
+    color: #450BF3;
+}
+
+.courses{
+    margin: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.courses button{
+    transition: all .3s;
+}
+.courses button:hover{
+    scale: 1.05;
+}
+.codecad img{
+    margin-bottom: 4px;
+}
+
+.courses h4{
+    font-size: 22px;
+    cursor: default;
+}
+.courses img{
+    width: 120px;
+}
+
+.buttons button{
+    cursor: pointer;
+}
+
+.buttons{
+    margin-top: 4px;
+    display: flex;
+}
+
+
+@media (max-width: 1024px) {
+    .about{
+        flex-direction: column;
+        column-gap: 30px;
+        row-gap: 50px;
+        margin: 130px 0 0 0;
+    }
+    .aboutImage{
+        max-width: 100%;
+        order: 1;
+    }
+    .aboutDescription{
+        max-width: 100%;
+        order: 0;
+    }
+    .aboutImage img{
+       
+        box-shadow: 15px -15px 0px 0px #3500D4;
+        
+    }
+   
+}
+@media (max-width: 768px) {
+    .aboutDescription p{
+        width: 380px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: justify;
+        cursor: default;
+    }
+    
+
+    .buttons{
+        flex-direction: column;
+        gap: 7px;
+    }
+}
+
+@media (max-width: 480px){
+    .about{
+        padding: 0 10px;
+    }
+    .aboutDescription p{
+        width: 280px;
+        margin: 0 auto;
+        
+    }
+}

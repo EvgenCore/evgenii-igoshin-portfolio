@@ -1,0 +1,130 @@
+.homeModule{
+    margin: 110px 0 0 0;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.avatarPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+}
+
+.leftPart{
+    max-width: 50%;
+}
+.rightPart{
+    max-width: 50%;
+}
+
+.rightPart img{
+    border: 4px solid #3500D3;
+    border-radius:  50%;
+}
+
+.description h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+    cursor: default;
+    color: #3500D3;
+}
+.description h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    cursor: default;
+}
+
+.social{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    margin: 35px 0 0 0;
+}
+.social img{
+    width: 50px;
+    transition: all .3s;
+}
+.social img:hover{
+    scale: 1.06;   
+}
+.social img:active{
+    scale: 0.99; 
+}
+
+
+.skillSet{
+    margin: 80px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 35px;
+}
+.skillSet h3{
+    font-size: 32px;
+    cursor: default;
+}
+
+
+.technologies{
+    display: flex;
+    column-gap: 30px;
+}
+.technologies img{
+    width: 55px;
+}
+
+
+@media (max-width: 1024px){
+    .avatarPart{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .skillSet{
+        margin: 40px 0 0 0;
+        column-gap: 15px;
+    }
+    .technologies{
+        column-gap: 15px;
+    }
+    .leftPart{
+        max-width: 100%;
+    }
+    .rightPart{
+        max-width: 100%;
+    }
+    .description h2 {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .technologies{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4, 1fr); 
+        
+    }
+}
+
+@media (max-width: 480px){
+    .description h1 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .description h2 {
+        font-size: 22px;
+    }
+    .technologies{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 4fr); 
+        
+    }
+}
