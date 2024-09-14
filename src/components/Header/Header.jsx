@@ -5,7 +5,7 @@ import style from '../../styles/Header.module.css'
 
 import LOGO from '../../images/logo.svg'
 
-
+import SV from '../../CV_IGOSHIN_EVGENII.pdf'
 
 const NavItem = ({ label, targetId }) => {
   const handleClick = (e) => {
@@ -55,7 +55,11 @@ export const Header = () => {
           <div className={style['nav-item']} onClick={closeMenu}><NavItem label="Projects" targetId="projects" /></div>
           <div className={style['nav-item']} onClick={closeMenu}><NavItem label="Contact" targetId="contact" /></div>
 
-          <button>Download CV</button>
+
+          <a href={SV} download="CV_IGOSHIN_EVGENII.pdf">
+            <button>Download CV</button>
+
+          </a>
         </nav>
 
         {/* Burger Menu */}
