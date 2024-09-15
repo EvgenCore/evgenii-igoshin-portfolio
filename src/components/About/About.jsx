@@ -29,7 +29,7 @@ export const About = () => {
       <div className={style.aboutDescription} id="about">
         <h3>About me</h3>
         <p>
-          I am a dedicated web developer with some freelance experience. I have
+          I am a dedicated web developer with freelance experience. I have
           completed the Front-End Engineer course from Codecademy and the
           Front-End Web Development program from CodeOp. I am proficient in
           React, JavaScript, HTML, CSS, Tailwind, and SCSS, with a solid

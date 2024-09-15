@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 
 import style from '../../styles/CertificateModal.module.css'
 
-import X from '../../images/x-symbol-svgrepo-com.svg'
+import X from '../../images/x.svg'
 
 import { motion, AnimatePresence } from 'framer-motion';
 

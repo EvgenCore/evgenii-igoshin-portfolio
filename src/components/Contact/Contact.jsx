@@ -25,12 +25,12 @@ export const Contact = () => {
           
             <div className={style.half}>
                 <img src={LOCATION} alt="" />
-                <p>Spain, Barcelona</p>
+                <p>Barcelona, Spain</p>
             </div>
 
             <div className={style.half}>
                 <img src={TELEPHONE} alt="" />
-                <p>+34631184342</p>
+                <p>+34 631 184 342</p>
             </div>
 
             <div className={style.half}>

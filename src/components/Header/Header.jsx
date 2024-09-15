@@ -58,7 +58,6 @@ export const Header = () => {
 
           <a href={SV} download="CV_IGOSHIN_EVGENII.pdf">
             <button>Download CV</button>
-
           </a>
         </nav>
 

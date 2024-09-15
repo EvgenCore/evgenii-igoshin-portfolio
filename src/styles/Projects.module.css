@@ -6,7 +6,7 @@
 .projects h3{
     font-size: 38px;
     font-weight: 600;
-    color: #450BF3;
+    color: #5c2ced;
     text-align: center;
     margin: 0 0 60px 0;
     cursor: default;
@@ -40,7 +40,7 @@
 
 .onlineShopImg{
     width: 520px;
-    box-shadow: 15px -15px 0px 0px #3500D4;
+    box-shadow: 10px -10px 0px 0px #5c2cedba;
     transition: box-shadow .3s;
     order: 0;
 }
@@ -71,7 +71,7 @@
 }
 .LaRoseImg{
     width: 520px;
-    box-shadow: -15px -15px 0px 0px #3500D4;
+    box-shadow: -10px -10px 0px 0px #5c2cedba;
     transition: box-shadow .3s;
 }
 
@@ -99,7 +99,7 @@
 }
 .realtyImg{
     width: 520px;
-    box-shadow: 15px -15px 0px 0px #3500D4;
+    box-shadow: 10px -10px 0px 0px #5c2cedba;
     transition: box-shadow .3s;
 }
 

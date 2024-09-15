@@ -24,19 +24,22 @@ header {
 }
 
 .nav button {
-  background-color: #450BF3;
+  background-color: #5c2ced;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  font-family:"Oxanium", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .nav button:hover {
-  transform: scale(1.05); /* Увеличение кнопки при наведении */
+  transform: scale(1.05); 
 }
 .nav button:active {
-  transform: scale(0.99); /* Увеличение кнопки при наведении */
+  transform: scale(0.99); 
 }
 
 
@@ -48,10 +51,10 @@ header {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* Эффект hover для элементов навигации */
+
 .nav-item:hover {
-  color: #450BF3; /* Цвет при наведении (пример: томатный) */
-  transform: scale(1.1); /* Увеличение размера при наведении */
+  color: #450BF3; 
+  transform: scale(1.1); 
 }
 
 .nav-item::after {
@@ -75,14 +78,14 @@ header {
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
-  transition: position 0.3s ease; /* Плавный переход для позиции */
+  transition: position 0.3s ease; 
 }
 
 .burger.fixed {
-  position: fixed; /* Фиксированное позиционирование */
-  top: 50px; /* Расположите в нужном месте сверху */
-  right: 20px; /* Расположите в нужном месте справа */
-  z-index: 1001; /* Убедитесь, что бургер выше других элементов */
+  position: fixed; 
+  top: 50px; 
+  right: 20px;
+  z-index: 1001; 
 }
 
 .line {
